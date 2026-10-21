@@ -94,7 +94,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                   ),
                   const SizedBox(height: 16),
                   DropdownButtonFormField<String>(
-                    value: _from,
+                    initialValue: _from,
                     decoration: const InputDecoration(
                       labelText: 'Из валюты',
                       border: OutlineInputBorder(),
@@ -110,7 +110,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                   ),
                   const SizedBox(height: 16),
                   DropdownButtonFormField<String>(
-                    value: _to,
+                    initialValue: _to,
                     decoration: const InputDecoration(
                       labelText: 'В валюту',
                       border: OutlineInputBorder(),
